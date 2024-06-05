@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{static/styles/main.css}">
+    <title>Главная</title>
+</head>
+<body>
+    <div class="content">
+        <div class="nav">
+            <div class="nav-bar">
+                <a href="main">Главная</a>
+                <a href="services">Услуги</a>
+                <a href="time-management">Тайм-менеджмент</a>
+            </div>
+            <a class="phone-number"
+             href="tel:+7 910 451-42-75">+7 910 451-42-75</a>
+        </div>
+        <div class="content-and-form">
+            <div class="form-application">
+                <h1 class="form-title">Оставьте заявку</h1>
+                <form th:method="post" th:action="@{/submit}" th:object="${application}">
+                    <div class="form-group">
+                        <input class="input"  type="text" th:field="*{firstName}" placeholder="Ваше имя" id="firstName">
+                    </div>
+                    <div class="form-group">
+                        <input class="input" type="text" placeholder="Ваша фамилия" th:field="*{lastName}">
+                    </div>
+                    <div class="form-group">
+                        <input class="input" type="email" placeholder="Ваш e-mail" th:field="*{email}">
+                    </div>
+                    <div class="form-group">
+                        <input class="input" type="text" placeholder="Ваш номер телефона" th:field="*{phoneNumber}">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-button"  type="submit" value="Отправить">
+                    </div>
+                </form>
+                
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>

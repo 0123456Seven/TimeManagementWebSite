@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../static/images/july_10.jpg);
+    height: 900px;
+}
+
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #FFF7E7;
+    opacity: 0.8;
+    font-size: 22px;
+
+    
+}
+.nav-group a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav-group a:hover{
+    color: #F95C19;
+    transition: 300ms;
+}
+
+.phone-number a{
+    text-decoration: none;   
+    color: black;
+    background-color: #F95C19;
+    padding: 10px;
+    opacity: 1 !important;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 black;
+}
+.phone-number a:hover{
+
+    background-color: #FFE4D9;
+    color: #F95C19;
+    transition: 300ms ;
+}
+.phone-number a:active{
+    box-shadow: 1px 2px 3px 1px black inset;}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content-text1{
+
+    justify-content: space-between;
+}
+.content-image1{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 500px;
+    background-image: url(../static/images/free-icon-time-management-4032336.png);
+    background-position: center;
+    background-size: cover
+    
+}
+.zastav{
+    font-size: 80px;
+    color: #F95C19;
+}
+.vremya{
+    font-size: 70px;
+    color: #E87367;
+}
+.rabotat{
+font-size: 65px;
+color: #567999;
+}
+.vas{
+    font-size: 50px;
+    color: #53D390;
+    
+}
+.to-application-button{
+    background-color: #F95C19;
+    border: 0px;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 1px black;
+}
+.to-application-button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #FFE4D9;
+    color: #F95C19;
+    transition: 300ms;
+}
+.to-application-button:active{
+    box-shadow: 1px 2px 3px 1px black inset;
+}
+
+

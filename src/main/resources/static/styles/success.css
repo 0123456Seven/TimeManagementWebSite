@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Фон страницы, если нужно */
+}
+
+.success-container {
+    text-align: center;
+}
+
+.success-icon {
+    width: 300px; /* Размер иконки успеха */
+    height: 300px;
+}
+.success{
+    font-size: 23px;
+}
+.thanks{
+    font-size: 27px;
+}

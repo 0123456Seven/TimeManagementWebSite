@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/MARKETINGB2bw2.jpg)
+}
+.content{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #16B7BC;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+.phone-number{
+    background-color: #16B7BC;
+    color: white;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+}
+.phone-number:hover{
+    background-color: white;
+    color: #16B7BC;
+    border: 1px solid #16B7BC;
+}
+.nav-bar{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+}
+.nav-bar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+
+    padding: 17px;
+
+}
+.nav-bar a:hover{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #43c0c2;
+
+
+}
+
+.personal-tm-block{
+    padding: 20px;
+    position: absolute;
+    left: 5%;
+    top: 200px;
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    z-index: 1;
+
+
+}
+.tm-title{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.tm-text{
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.tm-text li{
+    list-style: disc;
+    margin-top: 10px;
+}
+
+.corp-tm-block{
+    padding: 20px;
+    position: absolute;
+    left: 52.5%;
+    top: 200px;
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    z-index: 1;
+
+    
+}
+
+.system-block{
+    padding: 20px;
+    position: absolute;
+    left: 28.5%;
+    top: 290px;
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    z-index: 1;
+
+    
+}
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: #16B7BC;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+}
+.price{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+    color: red;
+}
+.bs-block{
+    padding: 20px;
+    position: absolute;
+    left: 77%;
+    top: 290px;
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    z-index: 1;
+}

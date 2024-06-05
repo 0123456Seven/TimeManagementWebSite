@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/5abdbf1096d0b162753258ea.jpg");
+}
+.content{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #16B7BC;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+.phone-number{
+    background-color: #16B7BC;
+    color: white;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+}
+.phone-number:hover{
+    background-color: white;
+    color: #16B7BC;
+    border: 1px solid #16B7BC;
+}
+.nav-bar{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+}
+.nav-bar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+
+    padding: 17px;
+
+}
+.nav-bar a:hover{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #43c0c2;
+
+
+}
+.content-and-form {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.form-application {
+    background-color: #16B7BC;
+    border-radius: 20px;
+    width: 45%;
+    height: 500px;
+    padding: 20px; /* Add padding for spacing */
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    bottom: 200px;
+}
+
+.form-title{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+.form-group{
+    margin: 20px;
+    margin-right: 40px;
+}
+.input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.form-button{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #16B7BC;
+}
+.form-button:hover{
+    background-color: white;
+    color: #16B7BC;
+    border: 1px solid #16B7BC;
+    cursor: pointer;
+}
+.form-button:active{
+    background-color: #16B7BC;
+    color: white;
+    border: 1px solid #16B7BC;
+}
